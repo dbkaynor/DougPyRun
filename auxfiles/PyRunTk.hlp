@@ -1,0 +1,21 @@
+Startup options:
+source file name
+-d, -debug   Enable debugging.
+-p, -project Load a custom project file.
+-h, -help    Show this help message and exit.
+-a, -about   Show program about information
+
+Hot keys:
+F1: Help
+F2: About
+F3: Calender
+F5: Reload key list
+Return: Run the command
+Space: Display key list
+
+Reservered key words:
+%explorer% Windows only, Open with Windows explorer
+%PreferedBrowser% Full path to prefered browser
+%PreferedEditor%  Full path to prefered editor
+
+DateFormat~= %B  %Y/%m/%d    %A %X

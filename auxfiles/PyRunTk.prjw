@@ -1,0 +1,84 @@
+PyRunTk.py project file win32
+# White space is stripped from both ends of the line
+# All lines with # in the first column are comments
+# All line that do not contain ~ are comments
+# Comments are always stored starting at line 2 in the project file
+# Project file formatting information
+# Each section begins and ends with ~~
+# The key word is bracketed with [] and is case insensitive
+# The [ must be the first character on the line
+# The command for a key word is Filename~=XXXX and is case insensitive
+# Do not include quotes around command (they are removed anyway)
+# DateFormat information coming
+# Lines that include **** are section spacer lines and ignoreed if clicked on
+# Built in commands begin with = so that user commands can use similar strings
+#
+#Windows enviroment substitutions
+# %ComSpec%
+# %explorer%
+# %userprofile%
+# %home% same as %userprofile%
+# %ProgramFiles%
+# %ProgramFiles(x86)%
+# %windir%
+#
+#Local substitutions
+DateFormat~= %B  %Y/%m/%d    %A %X
+PreferedBrowser~=%ProgramFiles(x86)%\Google\Chrome\Application\chrome.exe
+PreferedEditor~=%ProgramFiles(x86)%\Notepad++\\notepad++.exe
+Python3~="C:\Users\dkaynor\Portable Python 3.2.5.1\App\python.exe"
+
+**** Comics ****~= XXX
+Baby Blues~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/babyblues/
+Beetle Bailey~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/beetlebailey/
+Bizarro~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/bizarro/
+Blondie~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/blondie/
+Crankshaft~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/crankshaft/
+Dilbert~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/dilbert/
+Family Circus~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/familycircus/
+Hagar The Horrible~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/hagarthehorrible/
+Marvin~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/marvin/
+Mother Goose And Grimm~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/mothergooseandgrimm/
+Pearls Before Swine~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/pearlsbeforeswine/
+Shoe~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/shoe/
+Speedbump~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/speedbump/
+Strangebrew~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/strangebrew/
+Tundra~=%PreferedBrowser% ?? http://www.tundracomics.com/editors-section/comicspub.html
+Zits~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/zits/
+zits2~=%PreferedBrowser% ?? http://zitscomics.com/
+**** Utilities ****~= XXX
+Amazon~=%PreferedBrowser% ?? http://www.amazon.com/
+Downloads folder~=%explorer% ?? shell:downloads
+ebay~=%PreferedBrowser% ?? http://www.ebay.com
+facebook~=%PreferedBrowser% ?? https://www.facebook.com/dbkaynor
+gdocs~=%PreferedBrowser% ?? https://docs.google.com/spreadsheets/d/1-5gi5jXWKb9124RKWbesH5gFcfhUgf3glPL5SRJpxZU/edit#gid=2020547735
+gdrive~=%PreferedBrowser% ?? https://drive.google.com/drive/my-drive
+gmail~=%PreferedBrowser% ?? https://mail.google.com/mail/u/0/?hl=en&tab=wm#inbox
+gMaps~=%PreferedBrowser% ?? https://www.google.com/maps
+google~=%PreferedBrowser% ?? https://www.google.com/
+home~=%explorer% ?? %userprofile%
+mail~=%PreferedBrowser% ?? https://mail.google.com/mail/u/0/?hl=en&tab=wm#inbox
+**** Tools ****~=
+Firefox~=%explorer% ?? C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+PyCopyMove~=%explorer% ?? %python% %C:\Users\dkaynor\DougPython\DougPyCopyMove\ougPyCopyMove.py
+Sendto folder~=%explorer% ?? shell:sendto
+SnippingTool~=%explorer% ?? %windir%\system32\SnippingTool.exe
+Startup folder~=%explorer% ?? shell:startup
+Time and date~=%PreferedBrowser% ?? http://www.timeanddate.com/
+****  Web sites ****~=
+NASA Earth from Space~=%PreferedBrowser% ?? https://www.youtube.com/watch?v=cy2PNDrnMjM
+Rivermark Community Credit Union~=%PreferedBrowser% ?? https://www.rivermarkcu.org/
+Wellsfargo~=%PreferedBrowser% ?? https://onlineservices.wellsfargo.com/auth/login/present
+YouTube~=%PreferedBrowser% ?? https://www.youtube.com/
+**** Built ins ****~=
+=about
+=cal
+=exit
+=help
+=projectlist
+=showkeys
+=load
+=logshow
+=list
+=show
+=reload
