@@ -1,0 +1,102 @@
+PyRunTk.py project file linux
+# White space is stripped from both ends of the line
+# All lines with # in the first column are comments
+# All line that do not contain ~ are comments
+# Comments are always stored starting at line 2 in the project file
+# Project file formatting information
+# Each section begins and ends with ~~
+# The key word is bracketed with [] and is case insensitive
+# The [ must be the first character on the line
+# The command for a key word is Filename~=XXXX and is case insensitive
+# Do not include quotes around command (they are removed anyway)
+# DateFormat information coming
+# Lines that include **** are section spacer lines and ignoreed if clicked on
+# Built in commands begin with = so that user commands can use similar strings
+#
+#Linux enviroment substitutions
+DateFormat~= %B  %Y/%m/%d    %A %X
+PreferedBrowser~=/usr/bin/chromium-browser
+# PreferedBrowser~=/usr/bin/firefox
+PreferedBrowser~=/usr/bin/google-chrome-stable
+PreferedEditor~=/usr/bin/gedit
+
+# PreferedBrowser~="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+# PreferedBrowser~=%ProgramFiles(x86)%\Google\Chrome\Application\chrome.exe
+
+**** Comics ****~=
+Aunty Acid G~=%PreferedBrowser% ?? https://www.gocomics.com/aunty-acid/
+BC A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/bc/
+Baby Blues A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/babyblues/
+Beetle Bailey A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/beetlebailey/
+Betty G~=%PreferedBrowser% ?? https://www.gocomics.com/betty/
+Bizarro A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/bizarro/
+Blondie A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/blondie/
+Born Loser G~=%PreferedBrowser% ?? https://www.gocomics.com/the-born-loser/
+Broom Hilda G~=%PreferedBrowser% ?? https://www.gocomics.com/broomhilda/
+Calvin And Hobbes G~=%PreferedBrowser% ?? https://www.gocomics.com/calvinandhobbes/
+Chuckle Bros G~=%PreferedBrowser% ?? https://www.gocomics.com/chucklebros/
+Close To Home G~=%PreferedBrowser% ?? https://www.gocomics.com/closetohome/
+Crankshaft A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/crankshaft/
+Cul De Sac G~=%PreferedBrowser% ?? https://www.gocomics.com/culdesac/
+Dilbert A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/dilbert/
+Family Circus A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/familycircus/
+Farside~=%PreferedBrowser% ?? https://www.thefarside.com/
+For Better Or For Worse G~=%PreferedBrowser% ?? https://www.gocomics.com/forbetterorforworse/
+Fracus G~=%PreferedBrowser% ?? https://www.gocomics.com/farcus/
+Frank And Ernest G~=%PreferedBrowser% ?? https://www.gocomics.com/frank-and-ernest/
+Garfield A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/garfield/
+Grand Avenue G~=%PreferedBrowser% ?? https://www.gocomics.com/grand-avenue
+Hagar The Horrible A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/hagarthehorrible/
+Luann A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/luann/
+Marmaduke G~=%PreferedBrowser% ?? https://www.gocomics.com/marmaduke/
+Marvin A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/marvin/
+Mother Goose And Grimm A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/mothergooseandgrimm/
+Nonsequitur A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/nonsequitur/
+Off The Mark G~=%PreferedBrowser% ?? https://www.gocomics.com/offthemark/
+Over The Hedge G~=%PreferedBrowser% ?? https://www.gocomics.com/overthehedge/
+Pearls Before Swine A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/pearlsbeforeswine/
+Pickles A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/pickles/
+Ripley's Believe It Or Not G~=%PreferedBrowser% ?? https://www.gocomics.com/ripleysbelieveitornot/
+Rose Is A Rose A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/roseisrose/
+Shoe A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/shoe/
+Speed Bump A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/speedbump/
+Stone Soup Classics G~=%PreferedBrowser% ?? https://www.gocomics.com/stone-soup-classics/
+That is Priceless G~=%PreferedBrowser% ?? https://www.gocomics.com/that-is-priceless/
+Tundra~=%PreferedBrowser% ?? http://www.tundracomics.com/editors-section/comicspub.html
+Wizard Of Id A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/wizardofid/
+Wumo A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/wumo/
+Ziggy G~=%PreferedBrowser% ?? https://www.gocomics.com/ziggy/
+Zits A~=%PreferedBrowser% ?? https://www.arcamax.com/thefunnies/zits/
+
+**** Utilities ****~=
+Google Play~=%PreferedBrowser% ?? https://play.google.com/store
+SirusXM~=%PreferedBrowser% ?? https://player.siriusxm.com/home/foryou
+Amazon~=%PreferedBrowser% ?? http://www.amazon.com/
+ebay~=%PreferedBrowser% ?? http://www.ebay.com
+facebook~=%PreferedBrowser% ?? https://www.facebook.com/dbkaynor
+gdocs~=%PreferedBrowser% ?? https://docs.google.com/spreadsheets/d/1-5gi5jXWKb9124RKWbesH5gFcfhUgf3glPL5SRJpxZU/edit#gid=2020547735
+gdrive~=%PreferedBrowser% ?? https://drive.google.com/drive/my-drive
+gmail~=%PreferedBrowser% ?? https://mail.google.com/mail/u/0/?hl=en&tab=wm#inbox
+gMaps~=%PreferedBrowser% ?? https://www.google.com/maps
+google~=%PreferedBrowser% ?? https://www.google.com/
+mail~=%PreferedBrowser% ?? https://mail.google.com/mail/u/0/?hl=en&tab=wm#inbox
+**** Tools ****~=
+Time and date~=%PreferedBrowser% ?? http://www.timeanddate.com/
+Tkinter~=%PreferedBrowser% ?? https://docs.python.org/3/library/tkinter.ttk.html
+****  Web sites ****~=
+NASA Earth from Space~=%PreferedBrowser% ?? https://www.youtube.com/watch?v=cy2PNDrnMjM
+Rivermark Community Credit Union~=%PreferedBrowser% ?? https://www.rivermarkcu.org/
+Wellsfargo~=%PreferedBrowser% ?? https://onlineservices.wellsfargo.com/auth/login/present
+YouTube~=%PreferedBrowser% ?? https://www.youtube.com/
+**** Built ins ****~=
+=about
+=cal
+=exit
+=help
+=projectlist
+=showkeys
+=load
+=logshow
+=list
+=show
+=reload
